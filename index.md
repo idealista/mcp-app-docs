@@ -21,7 +21,7 @@ available through the official directories of each platform.
 
 ## About this repository
 
-This repository contains user-facing documentation for the official idealista
+This [repository](https://github.com/idealista/mcp-app-docs) contains user-facing documentation for the official idealista
 AI integrations. It does not contain the source code of the idealista MCP
 server.
 
