@@ -1,3 +1,8 @@
+---
+title: idealista for ChatGPT
+nav_order: 3
+---
+
 # idealista for ChatGPT
 
 ## 1. About

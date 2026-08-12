@@ -1,3 +1,8 @@
+---
+title: idealista for Claude
+nav_order: 2
+---
+
 # idealista for Claude
 
 ## 1. About
