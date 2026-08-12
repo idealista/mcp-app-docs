@@ -5,6 +5,8 @@ nav_order: 2
 
 # idealista for Claude
 
+[claude.ai](https://claude.ai)
+
 ## 1. About
 
 idealista provides an official app for Claude that lets you search real

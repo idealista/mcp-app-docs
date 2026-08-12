@@ -5,6 +5,8 @@ nav_order: 3
 
 # idealista for ChatGPT
 
+[chatgpt.com](https://chatgpt.com)
+
 ## 1. About
 
 idealista provides an official app for ChatGPT that lets you search real
