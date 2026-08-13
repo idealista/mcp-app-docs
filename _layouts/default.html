@@ -9,7 +9,9 @@
 </head>
 <body>
   <header>
-    <a href="{{ '/' | relative_url }}" class="site-title">idealista</a>
+    <a href="{{ '/' | relative_url }}" class="site-title">
+      <img src="{{ '/assets/images/logo.svg' | relative_url }}" alt="idealista" class="site-logo">
+    </a>
     <nav>
       {% assign nav_pages = site.pages | where_exp: "p", "p.nav_order" | sort: "nav_order" %}
       {% for p in nav_pages %}
