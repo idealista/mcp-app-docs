@@ -1,4 +1,12 @@
+---
+title: idealista for Claude
+eyebrow: Documentation
+nav_order: 2
+---
+
 # idealista for Claude
+
+[claude.ai](https://claude.ai)
 
 ## 1. About
 

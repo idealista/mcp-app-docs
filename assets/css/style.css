@@ -1,0 +1,128 @@
+*, *::before, *::after { box-sizing: border-box; }
+
+html { scrollbar-gutter: stable; }
+
+@font-face {
+  font-family: "bernino-regular";
+  src: url("../fonts/bernino-regular.woff2") format("woff2"),
+       url("../fonts/bernino-regular.woff") format("woff");
+  font-weight: normal;
+  font-style: normal;
+  font-display: swap;
+}
+
+@font-face {
+  font-family: "bernino-regular";
+  src: url("../fonts/bernino-bold.woff2") format("woff2"),
+       url("../fonts/bernino-bold.woff") format("woff");
+  font-weight: bold;
+  font-style: normal;
+  font-display: swap;
+}
+
+body {
+  font-family: "bernino-regular", Verdana, Arial, Geneva, sans-serif;
+  font-size: 1rem;
+  line-height: 1.6;
+  color: #111;
+  background: #fff;
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  display: flex;
+  align-items: baseline;
+  gap: 2rem;
+  padding: 1.25rem 2rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.site-title {
+  display: inline-flex;
+  align-items: center;
+  text-decoration: none;
+  white-space: nowrap;
+}
+
+.site-logo {
+  height: 21px;
+  display: block;
+}
+
+.eyebrow {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #999;
+  margin: 0 0 0.5rem;
+}
+
+nav {
+  display: flex;
+  gap: 1.5rem;
+  flex-wrap: wrap;
+}
+
+nav a {
+  color: #555;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+nav a:hover,
+nav a[aria-current="page"] {
+  color: #111;
+}
+
+main {
+  max-width: 720px;
+  margin: 0 auto;
+  padding: 3rem 2rem;
+}
+
+a { color: #111; }
+a:hover { color: #555; }
+
+h1 { font-size: 1.75rem; margin-top: 0; }
+h2 { font-size: 1.25rem; margin-top: 2.5rem; }
+h3 { font-size: 1rem; margin-top: 2rem; }
+
+table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.9rem;
+}
+
+th, td {
+  text-align: left;
+  padding: 0.5rem 0.75rem;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+th { font-weight: 600; }
+
+code {
+  font-family: "SFMono-Regular", Consolas, "Liberation Mono", Menlo, monospace;
+  font-size: 0.875em;
+  background: #f5f5f5;
+  padding: 0.15em 0.4em;
+  border-radius: 3px;
+}
+
+blockquote {
+  margin: 0;
+  padding: 0 1rem;
+  border-left: 3px solid #e5e5e5;
+  color: #555;
+}
+
+footer {
+  padding: 1.5rem 2rem;
+  border-top: 1px solid #e5e5e5;
+  font-size: 0.85rem;
+  color: #999;
+}
+
+footer p { margin: 0; }
