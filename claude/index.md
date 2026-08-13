@@ -1,5 +1,6 @@
 ---
 title: idealista for Claude
+eyebrow: Documentation
 nav_order: 2
 ---
 

@@ -1,5 +1,7 @@
 *, *::before, *::after { box-sizing: border-box; }
 
+html { scrollbar-gutter: stable; }
+
 @font-face {
   font-family: "bernino-regular";
   src: url("../fonts/bernino-regular.woff2") format("woff2"),
@@ -46,6 +48,15 @@ header {
 .site-logo {
   height: 21px;
   display: block;
+}
+
+.eyebrow {
+  font-size: 0.75rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+  color: #999;
+  margin: 0 0 0.5rem;
 }
 
 nav {

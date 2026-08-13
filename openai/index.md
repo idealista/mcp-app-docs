@@ -1,5 +1,6 @@
 ---
 title: idealista for ChatGPT
+eyebrow: Documentation
 nav_order: 3
 ---
 
