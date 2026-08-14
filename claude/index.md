@@ -70,7 +70,42 @@ For general instructions on connecting apps in Claude, see
 | `get_howto` | Explains how to complete tasks on idealista's website, based on its help content (currently: how to publish a listing). |
 | `guide_idealista_assistant` | Explains what the idealista app can do and how to get started. |
 
-## 6. Example prompts
+## 6. How search results are displayed
+
+You can search in any of the available languages, regardless of the country:
+the country is determined by the location you mention, not by the language
+of your prompt. Results always follow the same flow — inline carousel, map
+view, listing detail — illustrated below with prompts in different
+languages.
+
+**Inline carousel.** Search results first appear as a carousel with price,
+size, rooms, and features for each result, plus a link to see the full
+search on idealista. For example, in Spanish:
+
+> "Usando idealista, busca viviendas en alquiler en Malasaña-Universidad,
+> Madrid."
+
+![Rental search results in Malasaña-Universidad shown as an inline carousel]({{ '/assets/images/carrusel-inline-1.png' | relative_url }})
+
+**Map and list view.** Selecting "view on map" expands the carousel into a
+split view, with the list on one side and the locations on a map on the
+other. For example, in Portuguese:
+
+> "Usando o idealista, procura garagens para arrendar em Lisboa."
+
+![Garage rental results in Lisbon shown in a split map and list view]({{ '/assets/images/map-list-1.png' | relative_url }})
+
+**Listing detail.** Selecting a listing — or asking about one of the
+results — opens its detail with price, size, rooms, features, images,
+location, and status, without starting a new search. For example, in
+Italian:
+
+> "Usando idealista, mostrami i dettagli della camera in viale Giovanni
+> Milton tra i risultati."
+
+![Listing details for a room in Florence shown beside a map]({{ '/assets/images/listing-detail-1.png' | relative_url }})
+
+## 7. Example prompts
 
 ### Example 1 - Search and refine results
 
@@ -166,7 +201,7 @@ action.
 
 Claude asks a clarifying question instead of returning results.
 
-## 7. Permissions and limitations
+## 8. Permissions and limitations
 
 - All tools are read-only.
 - No login or idealista account linking is required.
