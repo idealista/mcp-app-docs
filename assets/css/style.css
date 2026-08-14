@@ -118,6 +118,15 @@ blockquote {
   color: #555;
 }
 
+main img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+  border: 1px solid #e5e5e5;
+  margin: 1rem 0;
+}
+
 footer {
   padding: 1.5rem 2rem;
   border-top: 1px solid #e5e5e5;
