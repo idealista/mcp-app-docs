@@ -137,7 +137,7 @@ a map, and refine further — including by sorting — with follow-up questions.
 **User prompt:**
 
 > "@idealista summarize the strengths and weaknesses of this listing:
-> https://www.idealista.com/immobile/12345678/"
+> https://www.idealista.com/inmueble/12345678/"
 
 **How ChatGPT responds:**
 
@@ -185,7 +185,7 @@ action.
 
 **User prompt:**
 
-> "@idealista I'm looking for a home 5 minutes from my house."
+> "@idealista je cherche un logement à 5 minutes de chez moi."
 
 **How ChatGPT responds:**
 

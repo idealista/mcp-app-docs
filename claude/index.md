@@ -190,7 +190,7 @@ action.
 
 **User prompt:**
 
-> "Using idealista, I'm looking for a home 5 minutes from my house."
+> "Avec idealista, je cherche un logement à 5 minutes de chez moi."
 
 **How Claude responds:**
 
