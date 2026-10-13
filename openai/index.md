@@ -17,8 +17,8 @@ it does not support manual configuration from other MCP clients.
 
 ## 2. Availability and languages
 
-- **Countries:** Spain, Italy, and Portugal.
-- **Languages:** Spanish, English, Italian, and Portuguese.
+- **Countries:** Spain, Italy, Portugal, and France (beta).
+- **Languages:** Spanish, English, Italian, Portuguese, and French.
 
 The language of your conversation can be different from the country where
 you are searching for properties.

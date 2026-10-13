@@ -29,4 +29,4 @@ server.
 ## About idealista
 
 [idealista](https://www.idealista.com/) is a real estate marketplace operating
-in Spain, Italy and Portugal.
+in Spain, Italy, Portugal and France (beta).
