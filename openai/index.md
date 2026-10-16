@@ -17,8 +17,8 @@ it does not support manual configuration from other MCP clients.
 
 ## 2. Availability and languages
 
-- **Countries:** Spain, Italy, and Portugal.
-- **Languages:** Spanish, English, Italian, and Portuguese.
+- **Countries:** Spain, Italy, Portugal, and France (beta).
+- **Languages:** Spanish, English, Italian, Portuguese, and French.
 
 The language of your conversation can be different from the country where
 you are searching for properties.
@@ -39,23 +39,39 @@ For general instructions on connecting plugins in ChatGPT, see
 
 ## 4. What you can do
 
-- Search for properties on idealista. Results are shown as a browsable
-  carousel, which you can expand into a map view to see listings by location.
+The idealista app helps you find a property on idealista, such as a home, an
+office or a garage, as part of your own property search.
+
+- Search for properties on idealista, starting from a specific location (a
+  city, district or neighborhood) and your preferences. You can refine your
+  search, start a new one with different preferences, or compare a few areas of
+  your choice. Results are shown as a browsable carousel, which you can expand
+  into a map view to see listings by location.
 - The results carousel and map view work on mobile and desktop, and support
   both light and dark mode.
 - Ask idealista to sort results — for example, "the cheapest first" or "the
   most recent first" — using the same sorting options already available on
   idealista's website. If you don't ask for a specific order, results are
-  sorted by relevance.
+  sorted by relevance. You can also ask to sort or tabulate the listings
+  already shown, for example in a table.
 - Search results and listing details always reflect the information currently
   published on idealista.
 - Get information about a specific listing directly, by giving its idealista
   URL or listing ID — no search needed. You can also ask about one of the
-  properties from your search results or from the map view.
+  properties from your search results or from the map view, or compare a few
+  listings.
 - Get help with tasks on idealista's website, based on its help content —
   currently, how to publish a listing. The app can explain how to publish a
   listing, but it cannot publish one on your behalf.
 - Learn about the app's capabilities and how to get started.
+
+**Not what this app is for**
+
+The app is designed for your own property search, not for reports, exports,
+automations, statistics, market analysis or collecting listings in bulk.
+Requests like these may not be answered, or may return incomplete or unreliable
+results. To explore beyond your own search, continue on idealista (for searches,
+from the link included in the results).
 
 ## 5. Available tools
 
@@ -137,7 +153,7 @@ a map, and refine further — including by sorting — with follow-up questions.
 **User prompt:**
 
 > "@idealista summarize the strengths and weaknesses of this listing:
-> https://www.idealista.com/immobile/12345678/"
+> https://www.idealista.com/inmueble/12345678/"
 
 **How ChatGPT responds:**
 
@@ -185,7 +201,7 @@ action.
 
 **User prompt:**
 
-> "@idealista I'm looking for a home 5 minutes from my house."
+> "@idealista je cherche un logement à 5 minutes de chez moi."
 
 **How ChatGPT responds:**
 
